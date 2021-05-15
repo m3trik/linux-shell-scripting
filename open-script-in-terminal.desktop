@@ -1,0 +1,22 @@
+# Allows open with 'Terminal' in a files right click context menu.
+#
+# this file should be located: /usr/share/applications
+# then perform these steps:
+# Log out/in (may not be necessary)
+# Right click on the file
+# Click on Open with...
+# Click on Another app...
+# Select "Terminal"
+
+
+[Desktop Entry]
+
+Name=Terminal
+
+Exec=gnome-terminal -e "%U"
+
+Terminal=false
+
+Type=Application
+
+MimeType=text/plain;
